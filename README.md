@@ -14,9 +14,13 @@ Used minimally. Everything is happening in Canvas
 Base functionality for the game and the enchant.js library are included here. 
 
 ## Scenes
-The 
-## Game Objects
+The 2 scenes, Main Menu and gameScene are here.
+A GameOver Scene should be developed.
 
+## Game Objects
+Background, ball, paddle, block files are all here. Additional items like the various power-ups should also be implemented here.
+The syntax follows the enchant js Class.create syntax where you're creating an object with a name and a initialization method that specifies the objects coordinates and sprite.
+Currently, some functionality is split into the js/gameLibrary.js file and should be merged back into the corresponding gameObject file.
 
 # JSON
 ### levels
