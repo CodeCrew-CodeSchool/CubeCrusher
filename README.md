@@ -1,25 +1,28 @@
-Round the Block
-Converting Round the Block to Enchant.js game
-
 ###########################
-# Blank Game Template
+# Cube Crusher
 
-See [LICENSE.md]() for license terms and conditions.
+Designed for students in/past Module 2, this project builds off of the basic Frontend and JS topics you've studied over the last 3 months.
 
-Use this template as a starting point for creating an Intel XDK game app.
+# HTML
+[index.html](./index.html) is the only HTML. It contains the canvas element where the game will be taking place.
 
-This Intel XDK project just have required files including index.html, asset folder, and basic CSS and Javascript file.
+# CSS
+Used minimally. Everything is happening in Canvas
 
-Intel(R) XDK
--------------------------------------------
-This template is part of the Intel(R) XDK. Please sign up or download the Intel XDK at http://software.intel.com/en-us/html5.
+# JS
 
-Application Files:
------------------
-* LICENSE.md
-* README.md
-* index.html
-* asset/logo.png
-* css/app.css
-* js/app.js
-* js/corodva-init.js
+Base functionality for the game and the enchant.js library are included here. 
+
+## Scenes
+The 
+## Game Objects
+
+
+# JSON
+### levels
+
+Inside of the levels folder, you can create additional levels. In a JSON format, create an object that has a property called rows.
+
+Rows should be an array of numbers.
+
+Each number represents a different color when rendered into the game. 9 renders empty spaces.
